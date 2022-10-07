@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BeaProfi</title>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./src/styles/style.css">
+   <link rel="stylesheet" href="./src/styles/header.css">
+   <link rel="stylesheet" href="./src/styles/footer.css">
+</head>
+
+<body>
+
+   <header class="header-container">
+      <nav class="header-nav" id="header-nav">
+         <div class="header-burger" id="burger">
+            <span></span>
+         </div>
+         <div class="close-burger">X</div>
+         <div class="navbar" id="navbar">
+            <div id="right-side" class="right-side">
+               <select class="change-lang">
+                  <option value="ru"> 🇷🇺&emsp;RU</option>
+                  <option value="kz"> 🇰🇿&emsp;KZ</option>
+                  <option value="en"> 🇺🇸&emsp;EN</option>
+               </select>
+            </div>
+         </div>
+      </nav>
+      <div class="header-main">
+         <div class="header-main-container">
+            <div class="header-text">
+               <h2>Lorem</h2>
+               <h2>ipsum</h2>
+            </div>
+            <div class="header-form">
+               <form class="form" id="form" action="https://formspree.io/f/mrgdbakz" method="POST">
+                  <div class="form-container">
+                     <div class="form-title lng-call">Заказать звонок</div>
+                     <div class="form">
+                        <input type="text" id="name" name="username" class="form-input lng-name" placeholder="ФИО">
+                        <br>
+                        <input type="number" id="number" name="userphone" class="form-input lng-phone"
+                           placeholder="Номер телефона">
+                        <br>
+                        <button type="submit" class="input-button lng-btn">Позвоните мне!</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div id="status"></div>
+            <div class="header-img">
+               <img src="./src/img/back2.jpg" alt="img">
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main-big-container" id="portfolio">
+      <h1 class="main-title lng-port">Портфолио</h1>
+      <div class="main-container">
+         <div class="main-img">
+            <img src="./src/img/PortfBack.png" alt="PortfBack">
+         </div>
+         <div class="main-form" id="go-projects">
+            <h2 class="main-text lng-inform">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, iste.</h2>
+         </div>
+      </div>
+      <div class="main-container container-2">
+         <div class="main-form-2" id="go-portfolio">
+            <h2 class="main-text text-2 lng-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+               natus.
+            </h2>
+         </div>
+         <div class="main-img-2">
+            <img src="./src/img/iphone-app.4b43786a.png" alt="phone">
+         </div>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer-container" id="footer">
+         <div class="footer-item">
+            <div class="footer-items">
+               <h2 class=" title lng-contact">Контакты</h2>
+
+               <a href="mailto:test@gmail.com" class="footer-link" target="_blank">test@gmail.com</a>
+               <br>
+               <a href="https://api.whatsapp.com/send?%20phone=7000000000" class="footer-link" target="_blank"> +7 700
+                  000 00 00</a>
+               <div class="social-links">
+                  <a href="https://api.whatsapp.com/send?%20phone=7756022563" class="icons whatsapp" target="_blank">
+                     <img src="./src/icons/whatsapp.png" alt="">
+                  </a>
+                  <a href="https://t.me/bedo123456789" class="icons telegram" target="_blank">
+                     <img src="./src/icons/telegram.png" alt="">
+                  </a>
+                  <a href="mailto:test@gmail.com" class="icons envelope" target="_blank">
+                     <img src="./src/icons/envelope.png" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="footer-items">
+               <h2 class="title lng-support">Поддержка</h2>
+               <a href="mailto:test@gmail.com" class="footer-link" target="_blank">test@gmail.com</a>
+               <br>
+               <a href="https://api.whatsapp.com/send?%20phone=7000000000" class="footer-link" target="_blank"> +7 700
+                  000 00 00</a>
+               <div class="social-links">
+                  <a href="https://api.whatsapp.com/send?%20phone=7074252020" class=" icons whatsapp" aria-hidden="true"
+                     target=" _blank">
+                     <img src="./src/icons/whatsapp.png" alt=""></a>
+                  <a href="https://t.me/bedo123456789" class="icons telegram" target="_blank">
+                     <img src="./src/icons/telegram.png" alt="">
+                  </a>
+                  <a href="mailto:test@gmail.com" class="icons envelope" target="_blank">
+                     <img src="./src/icons/envelope.png" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="footer-items" id="footer-links">
+               <h2 class="title lng-info">Информация</h2>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="./src/scripts/lang.js"></script>
+   <script src="./src/scripts/script.js"></script>
+   <script src="./src/scripts/send.js"></script>
+</body>
+
+
+</html>
